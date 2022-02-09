@@ -1,0 +1,29 @@
+.action-button{
+    background-color: $color-secondary;
+    max-width: 100%;
+    height: 48px;
+    border-radius: 2px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    margin: 0 15px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+.button-info{
+    max-width: 100%;
+    height: 48px;
+    border-radius: 2px;
+    background-color: white;
+    color: $color-secondary;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    margin: 15px 15px 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+@include for-large-up{
+    .action-button{
+        width: 160px;
+    }
+}
