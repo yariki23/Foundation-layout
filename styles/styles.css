@@ -731,6 +731,8 @@ header .header__action-button, header .navigation {
   }
 }
 .audience {
+  position: relative;
+  top: -3px;
   padding: 51px 15px 50px;
   background-color: rgba(0, 161, 198, 0.07);
 }
