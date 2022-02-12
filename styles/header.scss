@@ -166,8 +166,9 @@ header{
                 letter-spacing: -0.5px;
         }
         &__description{
-            margin-top: 34px;
+            margin-top: 44px;
             max-width: 456px;
+            padding-bottom: 43px;
         }
         &__button-area {
             display: inline;
@@ -181,6 +182,7 @@ header{
         .first-screen__img{
             position: relative;
             left: 449px;
+            margin: 0;
             max-width: 100%;
             padding: 0;
         }

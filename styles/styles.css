@@ -178,8 +178,9 @@ header .header__action-button, header .navigation {
     letter-spacing: -0.5px;
   }
   .headline__description {
-    margin-top: 34px;
+    margin-top: 44px;
     max-width: 456px;
+    padding-bottom: 43px;
   }
   .headline__button-area {
     display: inline;
@@ -193,6 +194,7 @@ header .header__action-button, header .navigation {
   .headline .first-screen__img {
     position: relative;
     left: 449px;
+    margin: 0;
     max-width: 100%;
     padding: 0;
   }
