@@ -169,6 +169,7 @@ header .header__action-button, header .navigation {
     width: 1140px;
     margin: auto;
     position: relative;
+    margin-top: 84px;
     padding-bottom: 77px;
   }
   .headline__titel {
