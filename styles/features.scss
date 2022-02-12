@@ -1,0 +1,122 @@
+.features{
+    display: none;
+}
+.features-mob {
+    padding: 9px 0 50px;
+    &__info {
+        padding:0 15px 40px;
+        border-bottom: 1px solid #E3E3E3;;
+        &:last-child{
+            padding-bottom: 0;
+            border: none;
+        }
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -0.357143px;
+        margin-bottom: 15px;
+        
+    }
+    &__subtitle {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 34px;
+        color: #009B4D;
+        margin-bottom: 17px;
+        margin-top: 40px;
+    }
+    &__description {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    &__text-for-img {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: rgba(43, 41, 45, 0.6);
+    }
+}
+
+
+
+@include for-large-up{
+    .features-mob{
+        display: none;
+    }
+    .features{
+        display: block;
+        max-width: 1400px;
+        position: relative;
+        margin-bottom: 103px;
+    }
+    .features__img_position-left{
+        position: absolute;
+        top: 258px;
+    }
+    .features__content{
+        max-width: 1140px;
+        margin: auto;
+    }
+    .features__wrapper{
+        max-width: 460px;
+    }
+    .features__subtitle{
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 34px;
+        color: #009B4D;
+        margin-bottom: 24px;
+    }
+    .features__title{
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        margin-bottom: 30px;
+    }
+    .features__description{
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 42px;
+    }
+    .features__adv-wrap, .features__advatage-item{
+        display: flex;
+        align-items: flex-start;
+    }
+    .features__advatage-title{
+        margin-left: 15px;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        color: #3142C6;
+        margin-bottom: 8px;
+    }
+    .features__advatage-text{
+        font-size: 18px;
+        line-height: 26px;
+        border-bottom: 3px solid #3142C6;
+        padding-bottom: 20px;
+    }
+    .features__advatage-item-text{
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        margin-left: 15px;
+    }
+    .features__advatage-item{
+        padding-bottom: 15px;
+        margin-top: 20px;
+        border-bottom: 1px solid rgba(43, 41, 45, 0.15);
+    }
+    .features__img_position-right{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+
