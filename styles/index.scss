@@ -1,31 +1,37 @@
-@import 'varible.scss';
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
+@import "varible.scss";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-html{
-    font-family: 'Work Sans', sans-serif;
-    color: $main-text-color;
-    overflow-x:hidden;
+html {
+  font-family: "Work Sans", sans-serif;
+  color: $main-text-color;
+  overflow-x: hidden;
 }
 
-@import 'header.scss';
-@import 'another-style.scss';
-@import 'about-customers.scss';
-@import 'features.scss';
-@import 'footer.scss';
-@import 'order.scss';
-@import 'audience.scss';
+@import "header.scss";
+@import "headline.scss";
+@import "another-style.scss";
+@import "about-customers.scss";
+@import "features.scss";
+@import "footer.scss";
+@import "order.scss";
+@import "audience.scss";
 
-.page{
-    width: 100%;
-    
-} 
-@include for-large-up{
-        .page{
-            width: 1400px;
-            margin: auto
-        }
-    }
+.page {
+  width: 100%;
+}
+@include for-large-up {
+  .page {
+    width: 1400px;
+    margin: auto;
+  }
+}

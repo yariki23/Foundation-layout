@@ -1,79 +1,73 @@
 .about {
-    background: #F4F5F7;
-    padding: 46px 15px;
+  padding: 46px 15px;
+  background: #f4f5f7;
 }
-.artcle {
-    margin-bottom: 20px;
-    &:last-child{
+.article {
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  &__text {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+@include for-large-up {
+  .about {
+    background: #f4f5f7;
+    &__wrapper {
+      display: flex;
+      width: 1140px;
+      padding-top: 77px;
+      padding-bottom: 76px;
+      margin: auto;
+      .article {
+        width: 555px;
         margin-bottom: 0;
-    }
-		&__title {
-            font-weight: bold;
-            font-size: 22px;
-            line-height: 32px;
-		}
-		&__text {
-            font-size: 22px;
-            line-height: 32px;
-		}
-}
-
-@include for-large-up{
-    .about{
-        background: #F4F5F7;
-        &__wrapper{
-            width: 1140px;
-            display: flex;
-            padding-top: 77px;
-            padding-bottom: 76px;
-            margin: auto;
-            .artcle{
-                width: 555px;
-                margin-bottom: 0;
-                &:first-child{
-                    margin-right: 29px;
-                }
-            }
+        &:first-child {
+          margin-right: 29px;
         }
-        
+      }
     }
+  }
 }
-// customer line
-
 .customers {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .customer {
-    min-height: 93px;
-    min-width: 106px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    border: 1px solid #E3E3E3;;
-		&__image {
-            filter: brightness(0);
-            max-width: 80%;
-            
-		}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  min-height: 93px;
+  min-width: 106px;
+  border: 1px solid #e3e3e3;
+  &__image {
+    filter: brightness(0);
+    max-width: 80%;
+  }
 }
-
-@include for-large-up{
-    .customers{
-        margin: auto;
-        width: 1140px;
-        padding-top: 30px;
-        padding-bottom: 106px;
-        justify-content: space-between;
-        .customer{
-            border: none;
-            height: auto;
-            width: auto;
-            &__image{
-                max-width: 100%;
-            }
-        }
+@include for-large-up {
+  .customers {
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 106px;
+    .customer {
+      height: auto;
+      width: auto;
+      border: none;
+      &__image {
+        max-width: 100%;
+      }
     }
+  }
 }

@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -9,7 +15,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 html {
   font-family: "Work Sans", sans-serif;
-  color: #2B292D;
+  color: #2b292d;
   overflow-x: hidden;
 }
 
@@ -37,107 +43,105 @@ header .logo__description {
   display: none;
 }
 header .burger-menu {
+  height: 64px;
+  width: 58px;
   margin-left: auto;
   background-color: inherit;
   border: none;
-  height: 64px;
-  width: 58px;
   border-left: 1px solid rgba(0, 0, 0, 0.15);
 }
 header .burger-menu img {
   width: 18px;
   height: 13px;
 }
-header .header__action-button, header .navigation {
+header .header__action-button,
+header .navigation {
   display: none;
 }
 
 @media screen and (min-width: 400px) {
-  .container__header {
-    background-color: #f3c6bd;
-    padding-top: 39px;
+  .header__container {
     width: 1400px;
     margin: auto;
+    background-color: #f3c6bd;
+    padding-top: 39px;
   }
-  .container__header header {
+  .header__container header {
+    align-items: flex-start;
     width: 1140px;
     height: 62px;
     margin: auto;
-    align-items: flex-start;
   }
-  .container__header header .logo__img {
+  .header__container header .logo__img {
     width: 60px;
     height: 60px;
     margin-right: 15px;
   }
-  .container__header header .logo__text {
+  .header__container header .logo__text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
   }
-  .container__header header .logo__title {
+  .header__container header .logo__title {
     font-size: 18px;
   }
-  .container__header header .logo__description {
+  .header__container header .logo__description {
     display: inline-block;
     font-size: 18px;
     line-height: 25px;
     opacity: 0.6;
     color: #2b292d;
   }
-  .container__header header .navigation {
+  .header__container header .navigation {
     display: inline-block;
     margin-left: auto;
     margin-top: 7px;
     margin-right: 75px;
   }
-  .container__header header .navigation__link {
+  .header__container header .navigation__link {
     color: #2b292d;
     line-height: 25px;
     font-size: 18px;
     text-decoration: none;
     margin-right: 50px;
   }
-  .container__header header .navigation__link:last-child {
+  .header__container header .navigation__link:last-child {
     margin-right: 0;
   }
-  .container__header header .navigation__link_activ {
+  .header__container header .navigation__link_active {
     font-weight: 700;
   }
-  .container__header header .navigation__arrow {
+  .header__container header .navigation__arrow {
     display: inline-block;
     margin-left: 11px;
     width: 8px;
     height: 5px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
   }
-  .container__header .header__action-button {
+  .header__container .header__action-button {
     display: inline-block;
-    position: relative;
-    right: 0;
   }
-  .container__header .burger-menu {
+  .header__container .burger-menu {
     display: none;
   }
 }
-.special-margin {
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
 .headline {
-  background-color: #F3C6BD;
+  background-color: #f3c6bd;
   padding: 0 0 36px;
   max-width: 100%;
 }
-.headline__titel {
+.headline_special-margin {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.headline__title {
   max-width: 754px;
   font-weight: bold;
   font-size: 50px;
   line-height: 50px;
   letter-spacing: -0.3125px;
-  color: #2B292D;
+  color: #2b292d;
 }
 .headline__description {
   margin-top: 24px;
@@ -145,41 +149,44 @@ header .header__action-button, header .navigation {
   line-height: 34px;
 }
 .headline__button-area {
-  margin-top: 30px;
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
 .headline__button-area .headline__button-learn {
   margin-top: 15px;
   background-color: #fff;
   color: #3040c4;
 }
-.headline .first-screen__img {
+.headline .headline__img {
   max-width: 100%;
   margin-top: 33px;
 }
 
 @media screen and (min-width: 400px) {
-  .special-margin {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   .headline {
+    position: relative;
     width: 1140px;
     margin: auto;
-    position: relative;
     margin-top: 84px;
     padding-bottom: 77px;
   }
-  .headline__titel {
+  .headline__content {
+    position: absolute;
+    z-index: 5;
+  }
+  .headline_special-margin {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .headline__title {
     font-size: 80px;
     line-height: 78px;
     letter-spacing: -0.5px;
   }
   .headline__description {
-    margin-top: 44px;
     max-width: 456px;
+    margin-top: 44px;
     padding-bottom: 43px;
   }
   .headline__button-area {
@@ -191,20 +198,16 @@ header .header__action-button, header .navigation {
   .headline__button-area .action-button {
     margin-right: 10px;
   }
-  .headline .first-screen__img {
+  .headline__img {
     position: relative;
     left: 449px;
-    margin: 0;
     max-width: 100%;
+    margin: 0;
     padding: 0;
-  }
-  .headline .headline__content {
-    position: absolute;
-    z-index: 5;
   }
 }
 .action-button {
-  background-color: #3040C4;
+  background-color: #3040c4;
   max-width: 100%;
   height: 48px;
   border-radius: 2px;
@@ -212,7 +215,6 @@ header .header__action-button, header .navigation {
   font-size: 18px;
   font-weight: bold;
   border: none;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 
 .button-info {
@@ -220,12 +222,11 @@ header .header__action-button, header .navigation {
   height: 48px;
   border-radius: 2px;
   background-color: white;
-  color: #3040C4;
+  color: #3040c4;
   font-size: 18px;
   font-weight: bold;
   border: none;
   margin-top: 15px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 
 @media screen and (min-width: 400px) {
@@ -235,42 +236,42 @@ header .header__action-button, header .navigation {
   }
 }
 .about {
-  background: #F4F5F7;
   padding: 46px 15px;
+  background: #f4f5f7;
 }
 
-.artcle {
+.article {
   margin-bottom: 20px;
 }
-.artcle:last-child {
+.article:last-child {
   margin-bottom: 0;
 }
-.artcle__title {
+.article__title {
   font-weight: bold;
   font-size: 22px;
   line-height: 32px;
 }
-.artcle__text {
+.article__text {
   font-size: 22px;
   line-height: 32px;
 }
 
 @media screen and (min-width: 400px) {
   .about {
-    background: #F4F5F7;
+    background: #f4f5f7;
   }
   .about__wrapper {
-    width: 1140px;
     display: flex;
+    width: 1140px;
     padding-top: 77px;
     padding-bottom: 76px;
     margin: auto;
   }
-  .about__wrapper .artcle {
+  .about__wrapper .article {
     width: 555px;
     margin-bottom: 0;
   }
-  .about__wrapper .artcle:first-child {
+  .about__wrapper .article:first-child {
     margin-right: 29px;
   }
 }
@@ -281,13 +282,13 @@ header .header__action-button, header .navigation {
 }
 
 .customer {
-  min-height: 93px;
-  min-width: 106px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
-  border: 1px solid #E3E3E3;
+  min-height: 93px;
+  min-width: 106px;
+  border: 1px solid #e3e3e3;
 }
 .customer__image {
   filter: brightness(0);
@@ -296,16 +297,16 @@ header .header__action-button, header .navigation {
 
 @media screen and (min-width: 400px) {
   .customers {
-    margin: auto;
+    justify-content: space-between;
     width: 1140px;
+    margin: auto;
     padding-top: 30px;
     padding-bottom: 106px;
-    justify-content: space-between;
   }
   .customers .customer {
-    border: none;
     height: auto;
     width: auto;
+    border: none;
   }
   .customers .customer__image {
     max-width: 100%;
@@ -320,7 +321,7 @@ header .header__action-button, header .navigation {
 }
 .features-mob__info {
   padding: 0 15px 40px;
-  border-bottom: 1px solid #E3E3E3;
+  border-bottom: 1px solid #e3e3e3;
 }
 .features-mob__info:last-child {
   padding-bottom: 0;
@@ -337,7 +338,7 @@ header .header__action-button, header .navigation {
   font-weight: bold;
   font-size: 22px;
   line-height: 34px;
-  color: #009B4D;
+  color: #009b4d;
   margin-bottom: 17px;
   margin-top: 40px;
 }
@@ -361,33 +362,28 @@ header .header__action-button, header .navigation {
 
   .features {
     display: block;
-    max-width: 1400px;
     position: relative;
+    max-width: 1400px;
     margin-bottom: 103px;
   }
-
   .features__img_position-left {
     position: absolute;
     top: 258px;
   }
-
   .features__content {
     max-width: 1140px;
     margin: auto;
   }
-
   .features__wrapper {
     max-width: 460px;
   }
-
   .features__subtitle {
     font-weight: bold;
     font-size: 22px;
     line-height: 34px;
-    color: #009B4D;
+    color: #009b4d;
     margin-bottom: 24px;
   }
-
   .features__title {
     font-weight: bold;
     font-size: 56px;
@@ -395,47 +391,40 @@ header .header__action-button, header .navigation {
     letter-spacing: -0.5px;
     margin-bottom: 30px;
   }
-
   .features__description {
     font-size: 24px;
     line-height: 34px;
     margin-bottom: 42px;
   }
-
-  .features__adv-wrap, .features__advatage-item {
+  .features__adv-wrap, .features__advantage-item {
     display: flex;
     align-items: flex-start;
   }
-
-  .features__advatage-title {
+  .features__advantage-title {
     margin-left: 15px;
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
-    color: #3142C6;
+    color: #3142c6;
     margin-bottom: 8px;
   }
-
-  .features__advatage-text {
+  .features__advantage-text {
     font-size: 18px;
     line-height: 26px;
-    border-bottom: 3px solid #3142C6;
+    border-bottom: 3px solid #3142c6;
     padding-bottom: 20px;
   }
-
-  .features__advatage-item-text {
+  .features__advantage-item-text {
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
     margin-left: 15px;
   }
-
-  .features__advatage-item {
+  .features__advantage-item {
     padding-bottom: 15px;
     margin-top: 20px;
     border-bottom: 1px solid rgba(43, 41, 45, 0.15);
   }
-
   .features__img_position-right {
     position: absolute;
     top: 0;
@@ -450,13 +439,13 @@ header .header__action-button, header .navigation {
   flex-direction: column;
   align-items: center;
   padding-bottom: 40px;
-  border-bottom: 1px solid #E3E3E3;
+  border-bottom: 1px solid #e3e3e3;
 }
 .footer .footer-logo {
-  padding: 0 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 15px;
 }
 .footer .footer-logo__text {
   margin-top: 20px;
@@ -472,7 +461,7 @@ header .header__action-button, header .navigation {
   text-align: center;
   font-size: 18px;
   line-height: 26px;
-  color: #2B292D;
+  color: #2b292d;
   opacity: 0.6;
 }
 .footer__description {
@@ -544,7 +533,7 @@ header .header__action-button, header .navigation {
 .footer__copyright-item {
   line-height: 22px;
   margin-right: 22px;
-  color: #2B292D;
+  color: #2b292d;
   opacity: 0.6;
   font-size: 14px;
   text-decoration: none;
@@ -572,9 +561,9 @@ header .header__action-button, header .navigation {
     padding-bottom: 0;
   }
   .footer__info .footer-logo {
-    padding: 0;
     flex-direction: row;
     align-items: center;
+    padding: 0;
   }
   .footer__info .footer-logo__img {
     padding-right: 13px;
@@ -591,7 +580,7 @@ header .header__action-button, header .navigation {
     text-align: center;
     font-size: 18px;
     line-height: 26px;
-    color: #2B292D;
+    color: #2b292d;
     opacity: 0.6;
   }
   .footer__description {
@@ -617,7 +606,7 @@ header .header__action-button, header .navigation {
     display: block;
     width: 100%;
     border-top: 1px solid;
-    background: #2B292D;
+    background: #2b292d;
     opacity: 0.1;
     margin-top: 47px;
   }
@@ -647,7 +636,7 @@ header .header__action-button, header .navigation {
 }
 .order {
   padding: 50px 15px;
-  background-color: #F4F5F7;
+  background-color: #f4f5f7;
 }
 .order__wrapper {
   display: flex;
@@ -671,7 +660,7 @@ header .header__action-button, header .navigation {
   width: 100%;
   height: 48px;
   margin-bottom: 12px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   box-sizing: border-box;
   border-radius: 2px;
@@ -680,7 +669,7 @@ header .header__action-button, header .navigation {
   font-size: 18px;
   line-height: 13px;
   text-align: center;
-  color: #2B292D;
+  color: #2b292d;
 }
 .order__info {
   margin-top: 10px;
@@ -689,7 +678,7 @@ header .header__action-button, header .navigation {
   color: rgba(43, 41, 45, 0.6);
 }
 .order__link {
-  color: #3142C6;
+  color: #3142c6;
 }
 .order__width {
   width: 100%;
@@ -702,11 +691,11 @@ header .header__action-button, header .navigation {
     padding: 0;
   }
   .order__wrapper {
-    height: 441px;
-    width: 1140px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 441px;
+    width: 1140px;
     margin: auto;
   }
   .order__content {
@@ -735,16 +724,16 @@ header .header__action-button, header .navigation {
   background-color: rgba(0, 161, 198, 0.07);
 }
 .audience__subtitle {
+  text-align: center;
   font-size: 22px;
   line-height: 34px;
-  text-align: center;
   padding-bottom: 18px;
 }
 .audience__title {
+  text-align: center;
   font-weight: bold;
   font-size: 40px;
   line-height: 40px;
-  text-align: center;
   letter-spacing: -0.357143px;
   padding-bottom: 18px;
 }
@@ -755,9 +744,9 @@ header .header__action-button, header .navigation {
 }
 .audience__card {
   margin-top: 15px;
-  background-color: #fff;
   padding: 22px 0 33px;
   border-radius: 8px;
+  background-color: #fff;
 }
 .audience__card:first-child {
   margin-top: 40px;
@@ -770,10 +759,10 @@ header .header__action-button, header .navigation {
   margin: 0 auto 22px;
 }
 .audience__card-subtitle {
+  text-align: center;
   font-weight: bold;
   font-size: 22px;
   line-height: 28px;
-  text-align: center;
 }
 
 @media screen and (min-width: 400px) {
@@ -785,11 +774,11 @@ header .header__action-button, header .navigation {
     margin: auto;
   }
   .audience__info {
-    max-width: 555px;
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 555px;
+    margin: auto;
   }
   .audience__buttons {
     margin-top: 34px;
@@ -807,9 +796,9 @@ header .header__action-button, header .navigation {
     letter-spacing: -0.5px;
   }
   .audience__cards {
-    margin-top: 111px;
     display: flex;
     justify-content: space-between;
+    margin-top: 111px;
   }
   .audience__card {
     margin-top: 0;
