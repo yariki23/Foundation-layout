@@ -5,7 +5,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+button {
   margin: 0;
 }
 
@@ -158,7 +159,7 @@ header .navigation {
   background-color: #fff;
   color: #3040c4;
 }
-.headline .headline__img {
+.headline__img {
   max-width: 100%;
   margin-top: 33px;
 }
@@ -196,12 +197,11 @@ header .navigation {
     margin-top: 58px;
   }
   .headline__button-area .action-button {
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .headline__img {
     position: relative;
     left: 449px;
-    max-width: 100%;
     margin: 0;
     padding: 0;
   }
