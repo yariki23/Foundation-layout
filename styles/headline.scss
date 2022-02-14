@@ -29,7 +29,7 @@
       color: #3040c4;
     }
   }
-  .headline__img {
+  &__img {
     max-width: 100%;
     margin-top: 33px;
   }
@@ -66,12 +66,11 @@
       margin-top: 58px;
     }
     &__button-area .action-button {
-      margin-right: 10px;
+      margin-right: 5px;
     }
     &__img {
       position: relative;
       left: 449px;
-      max-width: 100%;
       margin: 0;
       padding: 0;
     }
