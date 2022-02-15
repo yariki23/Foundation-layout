@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
-
 $main-text-color: #2b292d;
 $color-secondary: #3040c4;
+$main-size-text: 16px;
 $lg: 400px;
 @mixin for-large-up {
   @media screen and (min-width: $lg) {

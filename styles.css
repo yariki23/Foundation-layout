@@ -17,9 +17,19 @@ button {
 html {
   font-family: "Work Sans", sans-serif;
   color: #2b292d;
-  overflow-x: hidden;
+  font-size: 16px;
 }
 
+.page {
+  width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+  .page {
+    width: 1400px;
+    margin: auto;
+  }
+}
 header {
   display: flex;
   align-items: center;
@@ -768,6 +778,9 @@ header .navigation {
   font-size: 22px;
   line-height: 28px;
 }
+.audience__card-subtitle:hover {
+  color: #fff;
+}
 
 @media screen and (min-width: 400px) {
   .audience {
@@ -811,16 +824,6 @@ header .navigation {
   }
   .audience__card:first-child {
     margin-top: 0;
-  }
-}
-.page {
-  width: 100%;
-}
-
-@media screen and (min-width: 400px) {
-  .page {
-    width: 1400px;
-    margin: auto;
   }
 }
 
