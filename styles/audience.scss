@@ -29,7 +29,8 @@
       margin-top: 40px;
     }
     &:hover {
-      background-color: rgba(49, 65, 197, 1);
+      background-color: $color-secondary;
+      color: #fff;
     }
   }
   &__card-img {
@@ -41,9 +42,6 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 28px;
-    &:hover {
-      color: #fff;
-    }
   }
 }
 @include for-large-up {

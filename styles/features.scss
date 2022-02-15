@@ -93,13 +93,13 @@
       font-weight: bold;
       font-size: 22px;
       line-height: 26px;
-      color: #3142c6;
+      color: $color-secondary;
       margin-bottom: 8px;
     }
     &__advantage-text {
       font-size: 18px;
       line-height: 26px;
-      border-bottom: 3px solid #3142c6;
+      border-bottom: 3px solid $color-secondary;
       padding-bottom: 20px;
     }
     &__advantage-item-text {
