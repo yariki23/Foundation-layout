@@ -14,4 +14,4 @@ Layout supports mobile (up-to-400) and desktop (up-to-1140) versions
 
 ### Author
 
-- Yaroslav Shergin
+- Yaroslav Sherhin
