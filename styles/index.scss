@@ -1,5 +1,5 @@
-@import "varibles-breakpoint.scss";
-@import "font.scss";
+@import 'varibles-breakpoint.scss';
+@import 'font.scss';
 h1,
 h2,
 h3,
@@ -7,14 +7,14 @@ h4,
 h5,
 h6,
 p,
-button{
+button {
   margin: 0;
 }
 * {
   box-sizing: border-box;
 }
 html {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: $main-text-color;
   font-size: $main-size-text;
 }
@@ -27,13 +27,11 @@ html {
     margin: auto;
   }
 }
-@import "header.scss";
-@import "headline.scss";
-@import "button.scss";
-@import "about-customers.scss";
-@import "features.scss";
-@import "footer.scss";
-@import "order.scss";
-@import "audience.scss";
-
-
+@import 'header.scss';
+@import 'headline.scss';
+@import 'button.scss';
+@import 'about-customers.scss';
+@import 'features.scss';
+@import 'footer.scss';
+@import 'order.scss';
+@import 'audience.scss';

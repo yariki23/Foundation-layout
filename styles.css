@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
 h1,
 h2,
 h3,
@@ -15,7 +15,7 @@ button {
 }
 
 html {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #2b292d;
   font-size: 16px;
 }
@@ -410,7 +410,8 @@ header .navigation {
     line-height: 34px;
     margin-bottom: 42px;
   }
-  .features__adv-wrap, .features__advantage-item {
+  .features__adv-wrap,
+  .features__advantage-item {
     display: flex;
     align-items: flex-start;
   }
@@ -609,7 +610,8 @@ header .navigation {
     margin-top: 60px;
     display: flex;
   }
-  .footer__product, .footer__company {
+  .footer__product,
+  .footer__company {
     margin-top: 0;
     width: 265px;
   }
