@@ -2,7 +2,6 @@
 
 ### [Site link](https://yariki23.github.io/foundation-layout//)
 
-Site supports mobile (up-to-400) and desktop (up-to-1360) versions
 Layout supports mobile (up-to-400) and desktop (up-to-1140) versions
 
 ### The tech stack is:
