@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
 h1,
 h2,
 h3,
@@ -18,6 +17,7 @@ html {
   font-family: "Work Sans", sans-serif;
   color: #2b292d;
   font-size: 16px;
+  font-weight: 400;
 }
 
 .page {
@@ -148,7 +148,7 @@ header .navigation {
 }
 .headline__title {
   max-width: 754px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 50px;
   line-height: 50px;
   letter-spacing: -0.3125px;
@@ -338,14 +338,14 @@ header .navigation {
   border: none;
 }
 .features-mob__title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
   margin-bottom: 15px;
 }
 .features-mob__subtitle {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 22px;
   line-height: 34px;
   color: #009b4d;
@@ -392,14 +392,14 @@ header .navigation {
     max-width: 460px;
   }
   .features__subtitle {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 22px;
     line-height: 34px;
     color: #009b4d;
     margin-bottom: 24px;
   }
   .features__title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
@@ -488,7 +488,6 @@ header .navigation {
 .audience__card-subtitle {
   text-align: center;
   font-weight: bold;
-  font-size: 22px;
   line-height: 28px;
 }
 
@@ -546,7 +545,7 @@ header .navigation {
   align-items: center;
 }
 .order__title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
@@ -555,7 +554,7 @@ header .navigation {
 }
 .order__description {
   font-size: 22px;
-  line-height: 32px;
+  line-height: 34px;
   margin-bottom: 40px;
 }
 .order__email {
@@ -669,7 +668,7 @@ header .navigation {
   margin-top: 30px;
 }
 .footer__product-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 22px;
   line-height: 28px;
   margin-bottom: 18px;
@@ -763,7 +762,7 @@ header .navigation {
   }
   .footer__info .footer-logo__title {
     text-align: left;
-    font-weight: bold;
+    font-weight: 700;
     margin: 0;
   }
   .footer__info .footer-logo__description {

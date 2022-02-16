@@ -7,16 +7,16 @@
     align-items: center;
   }
   &__title {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 40px;
+    font-weight: $secondary-text-weight;
+    font-size: $size-text-title-mob;
+    line-height: $line-hight-title-mob;
     text-align: center;
     letter-spacing: -0.25px;
     margin: 40px 0 18px;
   }
   &__description {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: $size-text-subtitle;
+    line-height: $main-line-hight;
     margin-bottom: 40px;
   }
   &__email {

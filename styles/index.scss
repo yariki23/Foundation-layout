@@ -1,5 +1,5 @@
-@import 'varibles-breakpoint.scss';
-@import 'font.scss';
+@import 'varibles.scss';
+@import 'breakpoint.scss';
 h1,
 h2,
 h3,
@@ -16,7 +16,8 @@ button {
 html {
   font-family: 'Work Sans', sans-serif;
   color: $main-text-color;
-  font-size: $main-size-text;
+  font-size: 16px;
+  font-weight: $main-text-weight;
 }
 .page {
   width: 100%;

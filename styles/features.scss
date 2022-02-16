@@ -12,24 +12,24 @@
     }
   }
   &__title {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 40px;
+    font-weight: $secondary-text-weight;
+    font-size: $size-text-title-mob;
+    line-height: $line-hight-title-mob;
     letter-spacing: -0.357143px;
     margin-bottom: 15px;
   }
   &__subtitle {
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 34px;
+    font-weight: $secondary-text-weight;
+    font-size: $size-text-subtitle;
+    line-height: $main-line-hight;
     color: #009b4d;
     margin-bottom: 17px;
     margin-top: 40px;
   }
   &__description {
     margin-bottom: 30px;
-    font-size: 24px;
-    line-height: 34px;
+    font-size: $main-size-text;
+    line-height: $main-line-hight;
   }
   &__image {
     display: block;
@@ -65,22 +65,22 @@
       max-width: 460px;
     }
     &__subtitle {
-      font-weight: bold;
-      font-size: 22px;
-      line-height: 34px;
+      font-weight: $secondary-text-weight;
+      font-size: $size-text-subtitle;
+      line-height: $main-line-hight;
       color: #009b4d;
       margin-bottom: 24px;
     }
     &__title {
-      font-weight: bold;
-      font-size: 56px;
-      line-height: 56px;
+      font-weight: $secondary-text-weight;
+      font-size: $size-text-title-desc;
+      line-height: $line-hight-title-desc;
       letter-spacing: -0.5px;
       margin-bottom: 30px;
     }
     &__description {
       font-size: 24px;
-      line-height: 34px;
+      line-height: $main-line-hight;
       margin-bottom: 42px;
     }
     &__adv-wrap,
@@ -91,20 +91,20 @@
     &__advantage-title {
       margin-left: 15px;
       font-weight: bold;
-      font-size: 22px;
+      font-size: $size-text-subtitle;
       line-height: 26px;
-      color: $color-secondary;
+      color: $elements-bg;
       margin-bottom: 8px;
     }
     &__advantage-text {
       font-size: 18px;
       line-height: 26px;
-      border-bottom: 3px solid $color-secondary;
+      border-bottom: 3px solid $elements-bg;
       padding-bottom: 20px;
     }
     &__advantage-item-text {
       font-weight: bold;
-      font-size: 22px;
+      font-size: $size-text-subtitle;
       line-height: 26px;
       margin-left: 15px;
     }

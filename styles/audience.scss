@@ -3,8 +3,8 @@
   background-color: rgba(0, 161, 198, 0.07);
   &__subtitle {
     text-align: center;
-    font-size: 22px;
-    line-height: 34px;
+    font-size: $size-text-subtitle;
+    line-height: $main-line-hight;
     padding-bottom: 18px;
   }
   &__title {
@@ -16,21 +16,21 @@
     padding-bottom: 18px;
   }
   &__description {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: $main-size-text;
+    line-height: $main-line-hight;
     text-align: center;
   }
   &__card {
     margin-top: 15px;
     padding: 22px 0 33px;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: $secondary-text-color;
     &:first-child {
       margin-top: 40px;
     }
     &:hover {
-      background-color: $color-secondary;
-      color: #fff;
+      background-color: $elements-bg;
+      color: $secondary-text-color;
     }
   }
   &__card-img {
@@ -40,7 +40,7 @@
   &__card-subtitle {
     text-align: center;
     font-weight: bold;
-    font-size: 22px;
+    $size-text-subtitle: 22px;
     line-height: 28px;
   }
 }
@@ -69,8 +69,8 @@
     }
     &__title {
       padding-bottom: 30px;
-      font-size: 56px;
-      line-height: 56px;
+      font-size: $size-text-title-desc;
+      line-height: $line-hight-title-desc;
       letter-spacing: -0.5px;
     }
     &__cards {
