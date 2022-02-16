@@ -1,6 +1,6 @@
 # Startup landing template
 
-### [Site link](https://yariki23.github.io/foundation-layout//)
+### [Site link](https://yariki23.github.io/foundation-layout/)
 
 Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 
