@@ -1,6 +1,6 @@
 # Foundation layout
 
-### [Site link](https://fantastic-gelato-fc4819.netlify.app/)
+### [Site link](https://yariki23.github.io/foundation-layout/)
 
 Site supports for 320px and 1400px
 
